@@ -1,3 +1,5 @@
+# Machine Learning for Predicting Domestic Flight Fare: A Data-Driven Approach Using Streamlit Application Enhancing Travel Planning
+
 <img src="./attachments/projectreadme/media/image1.png"
 style="width:0.48958in" alt="short line" />
 
@@ -42,73 +44,8 @@ style="width:0.48958in" alt="short line" />
 </tbody>
 </table>
 
-<table>
-<colgroup>
-<col style="width: 17%" />
-<col style="width: 82%" />
-</colgroup>
-<tbody>
-<tr>
-<td>GitHub</td>
-<td>Project Repo: <a
-href="https://github.com/monalippatil/MachineLearning-Domestic-Flight-Fare-Prediction-Streamlit-Application.git">https://github.com/monalippatil/MachineLearning-Domestic-Flight-Fare-Prediction-Streamlit-Application.git</a></td>
-</tr>
-</tbody>
-</table>
 
-36120 - Advanced Machine Learning Application
 
-Master of Data Science and Innovation
-
-University of Technology of Sydney
-
-Table of Contents
-
-[**1. Executive Summary 2**](#executive-summary)
-
-[**2. Business Understanding 3**](#business-understanding)
-
-> [a. Business Use Cases 3](#_bnjfuh5ewogw)
-
-[**3. Data Understanding 4**](#data-understanding)
-
-[**4. Data Preparation 5**](#data-preparation)
-
-[**5. Modeling 6**](#modeling)
-
-> [a. Approach 1 6](#_uv8sn0ik6017)
->
-> [b. Approach 2 6](#_wtwxuxemqtvc)
->
-> [c. Approach 3 6](#_nrl8g3ri789x)
-
-[**6. Evaluation 8**](#evaluation)
-
-> [a. Evaluation Metrics 8](#_qx20m6hrk8uo)
->
-> [b. Results and Analysis 8](#_25v57zsj5m7g)
->
-> [c. Business Impact and Benefits 8](#_hkob76wu4d6q)
->
-> [d. Data Privacy and Ethical Concerns 9](#_uf1z6gbsejg6)
-
-[**7. Deployment 10**](#deployment)
-
-[**8. Collaboration 11**](#collaboration)
-
-> [a. Individual Contributions 11](#_5fycwkjr7bjp)
->
-> [b. Group Dynamic 11](#_4tp33skt3su4)
->
-> [c. Ways of Working Together 11](#_t9y1jnesjjm)
->
-> [d. Issues Faced 12](#_oeeyog5w6nd)
-
-[**9. Conclusion 13**](#conclusion)
-
-[**10. References 14**](#references)
-
-#  
 
 # Executive Summary
 
