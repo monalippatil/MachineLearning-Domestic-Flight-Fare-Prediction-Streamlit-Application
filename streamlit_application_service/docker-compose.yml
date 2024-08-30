@@ -1,0 +1,11 @@
+version: "3.12"
+services:
+  streamlit_app:
+    container_name: streamlit_app_at3
+    build: .
+    ports:
+      - 8502:8501
+    volumes:
+      - ./:/app
+      - ./app/streamlit_app.py:/app/streamlit_app.py
+
