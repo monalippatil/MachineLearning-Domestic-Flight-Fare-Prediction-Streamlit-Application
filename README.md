@@ -72,7 +72,7 @@ expenses. The project's primary goals included:
 3.  Offering a UI tool that enhances user experience and decision-making
     in travel planning.
 
-**Problem Statement:**
+### **Problem Statement:**
 
 The problem at hand was to create an application that could take
 user-input travel details, including departure and destination airports,
@@ -1061,17 +1061,81 @@ optimize its utility in the travel and transportation industry.
 <img src="./attachments/projectreadme/media/image2.png"
 style="width:0.47917in" alt="short dash" />
 
-# References
+### **Prerequisites**
 
-1.  ING. (2023, July 10). *Global aviation outlook: Air fares climb
-    higher amid the unprecedented recovery of travel*
+-   Python 3.7+
+-	numpy
+-	pandas
+-	scikit-learn
+-	TensorFlow 2.x
+-	joblib
+-	Matplotlib
+-	plotly
+-	streamlit
 
-> [<u>https://www.ing.com/Newsroom/News/Global-aviation-outlook-Air-fares-climb-higher-amid-the-unprecedented-recovery-of-travel.htm#:~:text=US%20airline%20tickets%20were%20more,%25%20of%20total%20operational%20costs</u>](https://www.ing.com/Newsroom/News/Global-aviation-outlook-Air-fares-climb-higher-amid-the-unprecedented-recovery-of-travel.htm#:~:text=US%20airline%20tickets%20were%20more,%25%20of%20total%20operational%20costs)).
+• The structure of the project directory is as below.
 
-1.  Stalnaker, T., Usman, K., Alport, G., Buchanan, A. (2023). *AIRLINE
-    ECONOMIC ANALYSIS 2022-2023.*
+<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 
-> https://www.oliverwyman.com/our-expertise/insights/2023/may/airline-economic-analysis-2022-2023.html
+Project Structure
+------------
 
-<img src="./attachments/projectreadme/media/image2.png"
-style="width:0.47917in" alt="short dash" />
+    ├── LICENSE
+    ├── Makefile           <- Makefile with commands like `make data` or `make train`
+    ├── README.md          <- The top-level README for developers using this project.
+    ├── data
+    │   ├── external       <- Data from third party sources.
+    │   ├── interim        <- Intermediate data that has been transformed.
+    │   ├── processed      <- The final, canonical data sets for modeling.
+    │   └── raw            <- The original, immutable data dump.
+    │
+    ├── streamlit_application_service  <- A streamlit application 
+    │   ├── app      		 
+    │   ├── models        
+    │   ├── src      		
+    │   └── utils            
+    │
+    │
+    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    │
+    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    │
+    ├── notebooks          <- Jupyter notebooks specified below. 
+    │                         		 data_preparation.ipynb
+    │                                merging_data_notebook.ipynb
+    │                                Htun_NyanPaing-Adaboostregressor.ipynb
+    │                                Patil_Monali-Tensorflow.ipynb
+    │                                Primananda_Charles_Tensorflow.ipynb
+    │                                Yaputra_Michael_Tensorflow.ipynb
+    │                         
+    │
+    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    │
+    ├── reports            <- Generated experiment and analysis PDF report as below.
+    │                                Final Project Report.pdf
+    │
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
+    │                         generated with `pip freeze > requirements.txt`
+    │
+    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
+    ├── src                <- Source code for use in this project.
+    │   ├── __init__.py    <- Makes src a Python module
+    │   │
+    │   ├── data           <- Scripts to download or generate data
+    │   │   └── make_dataset.py
+    │   │
+    │   ├── features       <- Scripts to turn raw data into features for modeling
+    │   │   └── build_features.py
+    │   │
+    │   ├── models         <- Scripts to train models and then use trained models to make
+    │   │   │                 predictions
+    │   │   ├── tf_keras_model
+    │   │   └── tf_model_12
+    │   │
+    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+    │       └── visualize.py
+    │
+    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+
+
+--------
