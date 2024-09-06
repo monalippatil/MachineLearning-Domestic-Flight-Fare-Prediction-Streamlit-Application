@@ -4,15 +4,15 @@
 
 1. Install Python and Docker application from www.docker.com
 
-2. Create or go to your working directory/folder
+2. Create or go to your working directory/folder.
 
-3. In the terminal, set the current working directory to the project folder
+3. In the terminal, set the current working directory to the project folder..
 
 4. In the terminal, run 'git clone https://github.com/monalippatil/MachineLearning-Domestic-Flight-Fare-Prediction-Streamlit-Application.git'.
 
 5. Go/cd to the streamlit application directory streamlit_application_service.
 
-6. Run 'docker compose up -d' and wait for docker to install all dependancies
+6. Run 'docker compose up -d' and wait for docker to install all dependancies.
 
 7. Once successful, go to your browser and open web application using: http://localhost:8502  
 
